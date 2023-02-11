@@ -3209,6 +3209,7 @@ input, select, textarea {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+		
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3240,7 +3241,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #5d58c4;
 		}
 
 		.wrapper.style1-alt {
@@ -3906,4 +3907,19 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+	    .profileimage{
+			height: 50vh;
+			object-fit: cover;
+			width: 20vw;
+		}
+
+		.prof{
+			display: flex;
+			flex-direction: row;
+		}
+
+		.profdiv{
+			width: 20px;
 		}
